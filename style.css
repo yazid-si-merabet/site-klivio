@@ -1,4 +1,4 @@
-@media screen and (min-width: 80rem) {
+@media screen and (min-width: 500rem) {
     .container {
         margin: 1em 2em;
     }
@@ -17,41 +17,46 @@ video {
 
 @import url(https://fonts.google.com/specimen/Montserrat);
 
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Montserrat';
 }
 
-.navbar {
+.header {
+    position: fixed;
     top: 0;
-    align-items: center;
-    z-index: 1000;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10%;
+    background: #152237;
     display: flex;
     justify-content: space-between;
-    background-color: #152237;
+    align-items: center;
 }
 
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 1em;
-    margin: 0;
+.logo {
+    width: 84px;
+    height: 31px;
+
 }
 
-.logo.png {
-    width: 3px;
-    height: auto;
+.navbar a {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 100%;
 }
 
 .formations {
-    color: black;
+    margin-left: 350px;
+    margin-top: 31px;
 }
 
-.boutton-connextion {
-    background-color: black;
+.boutton-connexion {
+    margin-left: 1300px;
 }
 
 .boutton-inscription {
-    background-color: aqua;
-    color: black;
+    margin-left: 1449px;
 }
