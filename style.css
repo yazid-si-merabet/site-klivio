@@ -15,6 +15,43 @@ video {
     max-width: 100%;
 }
 
-.nav {
+@import url(https://fonts.google.com/specimen/Montserrat);
+
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+.navbar {
+    top: 0;
+    align-items: center;
+    z-index: 1000;
     display: flex;
+    justify-content: space-between;
+    background-color: #152237;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+}
+
+.logo.png {
+    width: 3px;
+    height: auto;
+}
+
+.formations {
+    color: black;
+}
+
+.boutton-connextion {
+    background-color: black;
+}
+
+.boutton-inscription {
+    background-color: aqua;
+    color: black;
 }
