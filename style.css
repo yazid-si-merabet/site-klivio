@@ -1,0 +1,20 @@
+@media screen and (min-width: 80rem) {
+    .container {
+        margin: 1em 2em;
+    }
+}
+
+.container {
+    column-count: 3;
+    column-width: 10em;
+}
+
+img,
+picture,
+video {
+    max-width: 100%;
+}
+
+.nav {
+    display: flex;
+}
