@@ -5,16 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>site-klivio</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
+
+
+<!-- NAVBAR -->
+
     <header class="header">
     <nav class="navbar">
+                <a href="" target="_blank">
                     <img src="logo.png" alt="logo klivio" class="logo" height="30">
-                <a class="formations">les formations</a>
+                </a>
+                <a href="" target="_blank"  class="formations">les formations</a>
                 <div class="search-bar">
                     <input type="search" id="barre-de-recherche" name="search" placeholder="Rechercher" />
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-magnifying-glass fa-loupe"></i>
 
                 </div>
                 <div class="btn-nav">
@@ -22,20 +32,44 @@
                     <button class="boutton-inscription">Inscription</button>
                 </div>           <div class="top-page-text"></div>
     </nav>
+
+
+
+<!-- FIN NAVBAR -->
+
+
+
+
+<!-- TOP PAGE -->
+
     <div class="top-page">
             <div class="top-page-text">
-                <h1>KLIVIO, L'ALLIÉ DE VOTRE PROGRESSION</h1>
-                <h3>LES MEILLEURES FORMATIONS SUR LE DÉVELOPPEMENT PERSONNEL</h3>
+                <h1 class="top-page-titre">KLIVIO, L'ALLIÉ DE VOTRE PROGRESSION</h1>
+                <h3 class="top-page-titre-2">LES MEILLEURES FORMATIONS SUR LE DÉVELOPPEMENT PERSONNEL</h3>
                 <button class="btn">en savoir plus</button>
             </div>
     </div>
     </header>
 
-    <div class="formations">
-    <h2>Les formations populaires</h2>
-    </div>
 
-<img src="img-course.png">
+<!-- FIN TOP PAGE -->
+
+
+
+
+<!-- LES FORMATIONS POPULAIRES -->
+
+    <div class="form-populaire">
+    
+    <h2>Les formations populaires</h2>
+    <section class="cards">
+
+<article class="section-card">
+<img src="img-course.png" class="imgverte">
+<div class="price">
+    <p class="prix">15,99€</p>
+    <p class="prix-barré">60€</p>
+</div>
 <h4>Parler en public</h4>
 <p>Sonia Lefèvre | Coach prise de parole</p>
 <i class="fa-solid fa-star"></i>
@@ -44,18 +78,30 @@
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <p>Gagnez en aisance et captez votre auditoire</p>
+</article>
 
-<img src="img-course.png">
+<article class="section-card">
+<img src="img-course.png" class="imgverte">
+<div class="price">
+    <p class="prix">15,99€</p>
+    <p class="prix-barré">60€</p>
+</div>
 <h4>Gérer le stress</h4>
 <p>Lucie Garnier | Formatrice</p>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
-<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star fa-transparent"></i>
 <p>Apprenez à rester serein face aux défis</p>
+</article>
 
-<img src="img-course.png">
+<article class="section-card">
+<img src="img-course.png" class="imgverte">
+<div class="price">
+    <p class="prix">15,99€</p>
+    <p class="prix-barré">60€</p>
+</div>
 <h4>Travailler en équipe</h4>
 <p>David Moreau | Expert</p>
 <i class="fa-solid fa-star"></i>
@@ -64,22 +110,50 @@
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <p>Collaborez efficacement, même à distance</p>
+</article>
 
-<img src="img-course.png">
+<article class="section-card">
+<img src="img-course.png" class="imgverte">
+<div class="price">
+    <p class="prix">15,99€</p>
+    <p class="prix-barré">60€</p>
+</div>
 <h4>Gérer son temps</h4>
 <p>Claire Dumas | Coach organisation</p>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
-<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star fa-transparent"></i>
 <p>Optimisez vos journées et gagnez en efficacité</p>
+</article>
+    </section>
 
-<button class="voir-formations">Voir plus de formations</button>
+<section class="voir-formations">
+<button class="plusformation-btn">Voir plus de formations</button>
 
-<h1>Les formations récentes</h1>
+</div>
 
-<img src="img-course.png">
+</section>
+
+<!-- FIN FORMATIONS POPULAIRES -->
+
+
+<!-- LES FORMATIONS RECENTES -->
+
+
+
+<div class="form-recente">
+<h2>Les formations récentes</h2>
+
+<section class="cards">
+
+<article class="section-card">
+<img src="img-course.png" class="imgverte">
+<div class="price2">
+    <p class="prix">15,99€</p>
+    <p class="prix-barré">60€</p>
+</div>
 <h4>Mieux communiquer</h4>
 <p>Julien Martel | Coach en comm.</p>
 <i class="fa-solid fa-star"></i>
@@ -88,8 +162,14 @@
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <p>Améliorez vos échanges et votre impact relationnel</p>
+</article>
 
-<img src="img-course.png">
+<article class="section-card">
+<img src="img-course.png" class="imgverte">
+<div class="price2">
+    <p class="prix">15,99€</p>
+    <p class="prix-barré">60€</p>
+</div>
 <h4>Maîtriser ses émotions</h4>
 <p>Amel Benali | Psy. du travail</p>
 <i class="fa-solid fa-star"></i>
@@ -98,55 +178,102 @@
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <p>Développez calme et intelligence émotionnelle</p>
+</article>
 
-<img src="img-course.png">
+<article class="section-card">
+<img src="img-course.png" class="imgverte">
+<div class="price2">
+    <p class="prix">15,99€</p>
+    <p class="prix-barré">60€</p>
+</div>
 <h4>Résoudre les problèmes</h4>
 <p>Thomas Rivière | Expert</p>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
-<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star fa-transparent"></i>
 <p>Analysez, décidez et trouvez des solutions durables</p>
+</article>
 
-<img src="img-course.png">
+<article class="section-card">
+<img src="img-course.png" class="imgverte">
+<div class="price2">
+    <p class="prix">15,99€</p>
+    <p class="prix-barré">60€</p>
+</div>
 <h4>Leadership positif</h4>
 <p>Marc Nguyen | Consultant</p>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
-<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star fa-transparent"></i>
 <p>Inspirez, motivez et fédérez votre équipe</p>
+</article>
 
-<button>Voir plus de formations</button>
+</section>
 
-<h1>AVIS CLIENTS</h1>
+</section>
 
-<img src="juliette.png">
-<p>Juliette</p>
+<section class="class-btn-recent">
+<button class="plus-formations-btn2">Voir plus de formations</button>
+</section>
+
+</div>
+<!-- FIN FORMATIONS RECENTES -->
+
+
+<!-- AVIS CLIENTS -->
+
+<div class="avis-clients">
+
+<h2 class="titre-avis-clients">AVIS CLIENTS</h2>
+
+<section class="section-avis-clients">
+
+    <article class="avis">
+<img src="juliette.png" class="img-clients">
+<h4 class="nom-clients">Juliette</h4>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
-<p>J'ai trouvé le parcours très bien structuré : 
+<p class="paragraphe-clients">J'ai trouvé le parcours très bien structuré : 
     vidéos courtes, quizzes pertinents et projets 
     pratiques qui m'ont permis d'appliquer immédiatement 
     les notions. L'interface est claire et la progression est 
     motivante — parfait pour se former en autonomie.</p>
+    
+    </article>
 
-    <img src="camille.png">
-    <p>Camille</p>
+    <article class="avis">
+    <img src="camille.png" class="img-clients">
+    <h4 class="nom-clients">Camille</h4>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
 <i class="fa-solid fa-star"></i>
-<p>Bon équilibre entre théorie et pratique. Les chapitres 
+<p class="paragraphe-clients">Bon équilibre entre théorie et pratique. Les chapitres 
     sont détaillés, et le support et les corrections automatiques
      ont vraiment aidé. Idéal pour démarrer et progresser rapidement.
 </p>
+
+    </article>
+
+</section>
+
+</div>
+
+<!-- FIN AVIS CLIENTS -->
+
+
+<!-- AVANTAGES KLIVIO -->
+
+
+<div class="avantages-klivio">
 
 <h1>LES AVANTAGES KLIVIO</h1>
 <ul>
@@ -158,6 +285,10 @@
     <li>Espaces d'échanges dédiés pour poser ses questions sur les formations</li>
 </ul>
 <img src="avantages.png">
+
+</div>
+
+<!-- FIN AVANTAGES KLIVIO -->
 
 <h1>CRÉEZ VOS FORMATIONS AVEC KLIVIO</h1>
 <ul>
@@ -190,5 +321,29 @@
         <input type="search" id="barre-de-recherche" name="search" placeholder="Email" />
         <input type="text" id="textbox" name="texte" placeholder="Votre message"/>
         <button class="bouton-inscription">Envoyer</button>
+
+        <footer>
+            <img src="logo.png">
+            <p>Mentions légales</p>
+            <ul>
+                <li>CGU</li>
+                <li>CGV</li>
+                <li>FAQ</li>
+                <li>Contact</li>
+                <p>Coordonnées</p>
+            </ul>
+                <ul>
+                    <li>1 place république, 75003 Paris</li>
+                    <li>01.02.03.04.05</li>
+                    <li>contact@klivio.fr</li>
+                </ul>
+                <i class="fa-regular fa-copyright"></i>
+                <p>Klivio - 2025</p>
+                <p>Suivez-nous</p>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+        </footer>
 </body>
 </html>
