@@ -460,16 +460,18 @@ article .liste-icone p {
 }
 
 .search-bar-bottom {
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    display: flex;
 }
 
 .nom-email {
-    justify-content: space-around;
-    gap: 300px;
+    justify-content: center;
     width: 100%;
     align-items: center;
+    display: flex;
+    gap: 89px;
 }
 
 #textbox {
@@ -481,6 +483,31 @@ article .liste-icone p {
     font-size: 15px;
     font-weight: 400;
 
+}
+
+#textbox2 {
+    background: #152237;
+    width: 1335.92px;
+    height: 194.64px;
+    justify-content: space-between;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: start;
+}
+
+.boutton-contact-fond {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.boutton-contact {
+    width: 351.56px;
+    height: 45.3px;
+    border-radius: 6px;
+    background: #44DD8A;
+    justify-content: center;
 }
 
 
@@ -534,6 +561,8 @@ footer h6 {
     width: 1482px;
     height: 2px;
     margin-top: 80px;
+    justify-content: center;
+    display: flex;
 }
 
 .fa-footer {
@@ -555,4 +584,6 @@ footer h6 {
 .bottom {
     display: flex;
     flex-direction: row;
+    padding-bottom: 200px;
+    justify-content: space-between;
 }
