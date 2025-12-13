@@ -83,9 +83,7 @@
     text-align: center;
 }
 
-.top-page-text {
-    
-}
+
 
 
 .top-page-titre {
@@ -305,7 +303,8 @@ h2 {
     color: #152237;
     width: 686px;
     height: 47px;
-    padding-bottom: 30px;
+    padding-bottom: 75px;
+    line-height: 35px;
 }
 
 .liste-image-titre-klivio {
@@ -365,15 +364,6 @@ article .liste-icone p {
     padding-bottom: 30px;
 }
 
-
-
-.titre-a-propos {
-    /* font-weight: 900;
-    font-size: 40px;
-    color: #152237; */
-
-}
-
 .titre-texte {
     width: 686px;
     align-items: center;
@@ -381,9 +371,7 @@ article .liste-icone p {
     flex-direction: row;
 }
 
-.titre-texte h2 {
-    /* margin-left: 130px; */
-}
+
 
 .a-propos-de-klivio {
     display: flex;
@@ -482,7 +470,7 @@ article .liste-icone p {
     color: white;
     font-size: 15px;
     font-weight: 400;
-
+    margin-bottom: 45px;
 }
 
 #textbox2 {
@@ -494,6 +482,7 @@ article .liste-icone p {
     font-size: 15px;
     font-weight: 400;
     text-align: start;
+    margin-bottom: 45px;
 }
 
 .boutton-contact-fond {
@@ -521,13 +510,14 @@ footer p {
     color: white;
     font-size: 15px;
     font-weight: 400;
+    line-height: 24px;
 }
 
 footer h6 {
     color: white;
     font-size: 15px;
     font-weight: 700;
-
+    margin-bottom: 30px;
 }
 
 .top-footer {
@@ -573,6 +563,7 @@ footer h6 {
 .copyright {
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
 .suivez-nous {
@@ -586,4 +577,125 @@ footer h6 {
     flex-direction: row;
     padding-bottom: 200px;
     justify-content: space-between;
+}
+
+.onlymobile {
+    display: none;
+}
+
+@media(max-width:428px) {
+    *{
+        max-width: 428px;
+    }
+    .navbar {
+        justify-content: space-between;
+    }
+    .onlymobile {
+        display: flex;
+        width: 56px;
+        height: 56px;
+    
+    }
+    .search-bar {
+        display: none;
+    }
+    .formations {
+        display: none;
+    }
+    .btn-nav {
+        display: none;
+    }
+    .top-page {
+        width: 100%;
+    }
+    .cards {
+        flex-direction: column;
+    }
+
+    .titre-formations-pop {
+        justify-content: center;
+    }
+
+    .section-avis-clients {
+        flex-direction: column;
+    }
+
+    .avis {
+        max-width: 380px;
+        padding-bottom: 50px;
+    }
+
+    .paragraphe-clients {
+        max-width: 300px;
+    }
+
+    .avantages-klivio {
+        flex-direction: column;
+    }
+.liste-image-titre-klivio {
+    flex-direction: column;
+}
+.liste-avantages-klivio {
+    padding-bottom: 250px;
+}
+
+.img-femme {
+    width: 327px;
+}
+
+.formations-klivio {
+    flex-direction: column;
+}
+.titre-avantages-klivio {
+    max-width: 300px;
+}
+
+.liste-image-titre-klivio2 {
+    flex-direction: column;
+}
+.a-propos-de-klivio {
+    flex-direction: column;
+    max-width: 300px;
+}
+.fond-blanc {
+    max-width: 300px;
+    width: 100%;
+}
+.fond-bleu {
+    flex-direction: column;
+    width: 100%;
+}
+.deux-textes {
+    max-width: 300px;
+    justify-content: center;
+}
+
+.search-bar-bottom {
+    max-width: 300px;
+}
+.nom-email {
+    flex-direction: column;
+}
+#textbox {
+    max-width: 300px;
+    gap: -40px;
+}
+#textbox2 {
+    max-width: 300px;
+}
+
+footer {
+    flex-direction: column;
+    justify-content: center;
+}
+.top-footer {
+    flex-direction: column;
+}
+.footer-img-etc {
+    flex-direction: column;
+    justify-content: center;
+}
+.ligne-footer {
+    display: none;
+}
 }
