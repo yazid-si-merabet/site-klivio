@@ -575,7 +575,7 @@ footer h6 {
 .bottom {
     display: flex;
     flex-direction: row;
-    padding-bottom: 200px;
+    padding-bottom: 165px;
     justify-content: space-between;
 }
 
