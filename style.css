@@ -97,7 +97,6 @@
     font-size: 20px;
     font-weight: 500;
     letter-spacing: -1.5%;
-    line-height: 100%;
 }
 
 
@@ -395,12 +394,17 @@ article .liste-icone p {
     width: 50%;
     height: 740px;
     background: #F5F5F5;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    
 }
 
 .deux-textes {
     width: 686px;
-    margin-left: 142px;
-    margin-top: 50px;
+    margin-left: 0;
+    margin-top: 0px;
     font-size: 1.125em;
     
 }
@@ -607,6 +611,25 @@ footer h6 {
     }
     .top-page {
         width: 100%;
+        justify-content: center;
+    }
+
+    .top-page-titre {
+        font-size: 32px;
+         margin: auto;
+         width: 360px; 
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-bottom: 30px;
+    }
+
+    .top-page-titre-2 {
+        width: 360px;
+        margin: auto;
+        padding-bottom: 30px;
+        line-height: 100%;
     }
     .cards {
         flex-direction: column;
@@ -618,17 +641,33 @@ footer h6 {
 
     .section-avis-clients {
         flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 428px;
     }
 
     .avis {
-        max-width: 380px;
         padding-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        margin: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
     }
 
     .paragraphe-clients {
-        max-width: 300px;
+        max-width: 340px;
+        justify-content: center;
     }
 
+    .img-clients {
+        justify-content: center;
+        align-items: center;
+    }
     .avantages-klivio {
         flex-direction: column;
     }
@@ -656,18 +695,35 @@ footer h6 {
 .a-propos-de-klivio {
     flex-direction: column;
     max-width: 300px;
+    justify-content: center;
 }
 .fond-blanc {
-    max-width: 300px;
-    width: 100%;
+    width: 428px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 .fond-bleu {
     flex-direction: column;
-    width: 100%;
+    width: 428px;
+    margin: auto;
+    height: 370px;
+}
+
+.titre-a-propos {
+    align-items: center;
+    margin: auto;
+    width: 428px;
 }
 .deux-textes {
     max-width: 300px;
     justify-content: center;
+    margin: auto;
+}
+
+.img-klivio2 {
+    width: 214px;
 }
 
 .search-bar-bottom {
@@ -688,6 +744,7 @@ footer {
   display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .top-footer {
     flex-direction: column;
