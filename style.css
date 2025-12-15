@@ -731,13 +731,15 @@ footer h6 {
 }
 .nom-email {
     flex-direction: column;
+    display: flex;
+    gap: 0px;
 }
 #textbox {
-    max-width: 300px;
+    max-width: 350px;
     gap: -40px;
 }
 #textbox2 {
-    max-width: 300px;
+    max-width: 350px;
 }
 
 footer {
