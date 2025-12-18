@@ -508,6 +508,7 @@ article .liste-icone p {
 footer {
     background: #152237;
     
+    
 }
 
 footer p {
@@ -598,6 +599,9 @@ footer h6 {
         display: flex;
         width: 56px;
         height: 56px;
+        justify-content: end;
+        position: relative;
+        padding-left: 210px;
     
     }
     .search-bar {
@@ -748,9 +752,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
-.top-footer {
-    flex-direction: column;
-}
+ 
 .footer-img-etc {
     flex-direction: column;
     justify-content: center;
